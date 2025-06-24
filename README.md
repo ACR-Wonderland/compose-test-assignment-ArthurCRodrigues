@@ -1,2 +1,2 @@
 # template-assignment
-oii
+我会说中文
