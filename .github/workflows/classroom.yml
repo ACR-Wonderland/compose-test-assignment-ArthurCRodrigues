@@ -26,6 +26,6 @@ jobs:
           echo "Current working directory $(pwd)"
           echo "GITHUB_WORKSPACE = ${{ github.workspace }}"
           echo "Contents of GITHUB_WORKSPACE:"
-          ls -laR ${{ github.workspace }}
+          ls -la ${{ github.workspace }}
           echo "Contents of current directory:"
-          ls -laR
+          ls -la
