@@ -24,7 +24,7 @@ jobs:
       - name: Debug Workspace Structure
         run: |
           echo "Current working directory $(pwd)"
-          echo "GITHUB_WORKSPACE = ${{ github.workspace }}
+          echo "GITHUB_WORKSPACE = ${{ github.workspace }}"
           echo "Contents of GITHUB_WORKSPACE:"
           ls -laR ${{ github.workspace }}
           echo "Contents of current directory:"
