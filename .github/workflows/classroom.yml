@@ -17,7 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        with:
+           path: submission
       - name: Runs docker compose
         uses: ACR-Wonderland/docker-compose-action-test@v1 
 
